@@ -1,5 +1,3 @@
 var fs = require('fs');
 
-fs.readFile('read-me.txt', 'utf8', function(err, data){
-  fs.writeFile('write-me.txt', data, () => null);
-});
+fs.unlink('./stuff/write-me.txt', () => fs.rmdir('stuff', (err) => console.log(err)) )
