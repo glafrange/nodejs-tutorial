@@ -1,0 +1,22 @@
+{
+  "name": "node-js-tutorial",
+  "version": "1.0.0",
+  "description": "TheNetNinja's node tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glafrange/nodejs-tutorial.git"
+  },
+  "author": "\"Gabriel Lafrange\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glafrange/nodejs-tutorial/issues"
+  },
+  "homepage": "https://github.com/glafrange/nodejs-tutorial#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
